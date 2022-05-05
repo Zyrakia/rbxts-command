@@ -1,7 +1,7 @@
 {
 	"name": "@rbxts/command",
 	"description": "Very simple command/argument management system.",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"main": "out/init.lua",
 	"license": "MIT",
 	"scripts": {
