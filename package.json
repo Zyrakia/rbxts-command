@@ -18,7 +18,8 @@
 	},
 	"types": "out/index.d.ts",
 	"files": [
-		"out/**/(*.lua|*.d.ts)"
+		"out/**/*.lua",
+		"out/**/*.d.ts"
 	],
 	"publishConfig": {
 		"access": "public"
