@@ -27,6 +27,7 @@ export class Commander<C extends CommandConfig> {
 
 	public constructor(
 		private readonly commandHook?: (
+			sender: Player,
 			command: CommandDescriptor<C>,
 			commandResult: unknown,
 			executorArgs: ExecutorArgs,
@@ -154,7 +155,7 @@ export class Commander<C extends CommandConfig> {
 
 		const executorArgs: ExecutorArgs = [sender, argsParser, usedAlias];
 		this.runExecutor(executor, executorArgs).then((res) => {
-			if (this.commandHook) this.commandHook(command, res, executorArgs);
+			if (this.commandHook) this.commandHook(sender, command, res, executorArgs);
 		});
 
 		return ExecutionResult.EXECUTED;
