@@ -11,10 +11,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zyrakia/command"
+		"url": "https://github.com/zyrakia/rbxts-command"
 	},
 	"bugs": {
-		"url": "https://github.com/zyrakia/command/issues"
+		"url": "https://github.com/zyrakia/rbxts-command/issues"
 	},
 	"types": "out/index.d.ts",
 	"files": [
